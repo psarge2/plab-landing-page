@@ -1,0 +1,627 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+} 
+
+.container {
+    width: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+	margin: 0;
+    min-height: 100vh;
+    color: white;
+  }
+
+p {
+    font-size: 1.6rem; 
+    line-height: 2.0rem;
+}
+
+.background-img {
+    background: linear-gradient(
+    rgba(71, 71, 71, .7),
+    rgba(71, 71, 71, 0.6)),
+    url("https://livewithlyfe.com/wp-content/uploads/2018/11/parentingbookmock.jpg") 50% / cover scroll;
+  height: 100%;
+  padding: 3.5rem;
+}
+
+.background-color{
+    background-color:#995656;
+    padding: 3rem;
+}
+
+.content {
+    padding: 5.0rem;
+}
+
+.top {
+    margin-top: 3rem 0rem;
+    padding: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-content {
+    padding: 0px 10rem;
+    color: white;
+}
+
+.top-content h2 {
+    font-size: 5rem;
+    font-weight: 400;
+    line-height: 7rem;
+}
+
+.top-content p {
+    padding: 3rem 0px;
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+.top-btn {
+    display: inline-block;
+    text-align: center;
+}
+
+.connect {
+    padding: 0 10rem;
+}
+
+.btn-ctr {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.btn-purp {
+    background-color: #2b3990;
+    border: none;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+.purple {
+    color: #2b3990;
+}
+
+.btn-clear {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+
+.btn-v {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: light;
+    margin: 4px 3px;
+  }
+
+  .btn-purchase {
+    background-color: #2b3990;
+    border-radius: 40px 40px 40px 40px;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 2rem;
+    margin: 4px 2px;
+  }
+
+
+.btn-cons {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 32px;
+  }
+
+.btn-speak {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 32px;
+  }
+
+.content-left p {
+    padding-right: 10rem;
+    line-height: 6rem;
+    font-size: 2rem;
+}
+
+.header {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+.content-left {
+      display: flex;
+      padding: 2.5rem 10rem;
+  }
+
+.praise {
+    margin: 5rem, auto;
+    padding: 0px 10rem;
+  }
+
+.praises-left,
+.praises-right {
+      display: flex;
+      padding: 3rem;
+  }
+
+
+
+.praises-left p {
+    padding-left: 3rem;
+    padding-bottom: 1.0rem;
+}
+
+.praises-right p {
+    padding-right: 3rem;
+    padding-bottom: 1.0rem;
+}
+
+.img-praise {
+    border-radius: 50%;
+}
+
+.ctr {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1400px;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+    .container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1620px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .top-content h2 {
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 7rem;
+    }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .background-img {
+        background: linear-gradient(
+        rgba(65, 64, 64, 0.7),
+        rgba(63, 63, 63, 0.6)),
+        url("https://livewithlyfe.com/wp-content/uploads/2018/11/parentingbookmock.jpg") 50% / cover scroll;
+      height: 100%;
+      padding: 1.5rem;
+    }
+
+    .content {
+        padding: 2.5rem;
+    }
+    
+    .top {
+        margin-top: 3rem 0rem;
+        padding: 5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .top-content {
+        padding: 0px 5rem;
+        color: white;
+    }
+    
+    .top-content h2 {
+        font-size: 3rem;
+        font-weight: 400;
+        line-height: 7rem;
+    }
+    
+    .top-content p {
+        padding: 3rem 0px;
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+    
+    .top-btn {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .connect {
+        padding: 0 10rem;
+    }
+
+    .content-left p {
+        padding-right: 5rem;
+        line-height: 2rem;
+    }
+    
+    .header {
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    
+    .content-left {
+          display: flex;
+          padding: 2.5rem 5rem;
+      }
+    
+    .praise {
+        margin: 2.5rem, auto;
+        padding: 0px 2.5rem;
+      }
+    
+    .praises-left,
+    .praises-right {
+          display: flex;
+          padding: 1.5rem;
+      }
+    
+    
+    
+    .praises-left p {
+        padding-left: 1.5rem;
+        padding-bottom: 1.0rem;
+    }
+    
+    .praises-right p {
+        padding-right: 1.5rem;
+        padding-bottom: 1.0rem;
+    }
+    
+    .img-praise {
+        border-radius: 50%;
+    }
+    
+    .ctr {
+        text-align: center;
+        padding-top: 1.4rem;
+    }
+    
+
+}
+
+@media screen and (max-width: 960px) {
+
+
+ 
+    .container {
+        width: 100%;
+    }
+
+
+    .background-img {
+        background: linear-gradient(
+        rgba(71, 71, 71, .7),
+        rgba(71, 71, 71, 0.6)),
+        url("https://livewithlyfe.com/wp-content/uploads/2018/11/parentingbookmock.jpg") 50% / cover scroll;
+      height: 100%;
+      padding: 1.5rem;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+    
+    .top {
+        margin-top: 3rem 0rem;
+        padding: 5rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .top-content {
+        padding: 0px 2.0rem;
+        color: white;
+    }
+    
+    .top-content h2 {
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 5.0rem;
+    }
+    
+    .top-content p {
+        padding: 3rem 0px;
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+    
+    .top-btn {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .connect {
+        padding: 0 2.5rem;
+    }
+
+    .content-left p {
+        padding-right: 2.5rem;
+        line-height: 2rem;
+    }
+    
+    .header {
+        font-size: 50px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    
+    .content-left {
+          display: flex;
+          padding: 2.5rem 5rem;
+      }
+    
+    .praise {
+        margin: 2.5rem, auto;
+        padding: 0px 2.5rem;
+      }
+    
+    .praises-left,
+    .praises-right {
+          display: flex;
+          padding: 1.5rem;
+      }
+    
+    
+    
+    .praises-left p {
+        padding-left: 1.5rem;
+        padding-bottom: 1.0rem;
+    }
+    
+    .praises-right p {
+        padding-right: 1.5rem;
+        padding-bottom: 1.0rem;
+    }
+    
+    .img-praise {
+        border-radius: 50%;
+    }
+    
+    .ctr {
+        text-align: center;
+        padding-top: 1.4rem;
+    }
+
+    .image-mobile {
+        width: 30rem;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 736px) {
+
+    body {
+        min-width: 320px;
+    }
+
+    body, input, select, textarea {
+        font-size: 11pt;
+    }
+
+
+    .container {
+        width: 100%;
+    }
+
+    .background-img {
+        background: linear-gradient(
+        rgba(71, 71, 71, .7),
+        rgba(71, 71, 71, 0.6)),
+        url("https://livewithlyfe.com/wp-content/uploads/2018/11/parentingbookmock.jpg") 50% / cover scroll;
+      height: 100%;
+      padding: 0.5rem;
+    }
+
+    .content {
+        padding: 0.5rem;
+    }
+    
+    .top {
+        margin-top: 3rem 0rem;
+        padding: 1.5rem;
+        display: grid;
+        justify-content: space-around;
+    }
+    
+    .top-content {
+        padding: 0px 5rem;
+        color: white;
+    }
+    
+    .top-content h2 {
+        font-size: 2.0rem;
+        font-weight: 400;
+        line-height: 3.5rem;
+    }
+    
+    .top-content p {
+        padding: 3rem 0px;
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    
+    .top-btn {
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .connect {
+        padding: 0 0rem;
+    }
+
+    .content-left p {
+        padding-right: 2.5rem;
+        line-height: 2rem;
+    }
+    
+    .header {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 2rem;
+        line-height: 2.5rem;
+      }
+    
+    .content-left {
+          display: grid;
+          padding: 0.5rem 0.3rem;
+      }
+    
+    .praise {
+        margin: 1.5rem, auto;
+        padding: 0px 1.5rem;
+      }
+    
+    .praises-left,
+    .praises-right {
+          display: grid;
+          padding: 0.5rem;
+      }
+    
+    
+    
+    .praises-left p {
+        padding-left: 0.5rem;
+        padding-bottom: 1.0rem;
+    }
+    
+    .praises-right p {
+        padding-right: 0.5rem;
+        padding-bottom: 1.0rem;
+    }
+    
+    .img-praise {
+        border-radius: 50%;
+        display: none;
+    }
+    
+    .ctr {
+        text-align: center;
+        padding-top: 1.4rem;
+    }
+
+    .purchase {
+        margin-bottom: 1rem;
+      }
+
+      .btn-purchase {
+        background-color: #2b3990;
+        border-radius: 4rem 4rem 4rem 4rem;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 2rem;
+        margin: 4px 2px;
+      }
+
+      .btn-cons {
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 4rem 4rem 4rem 4rem;
+        color: white;
+        padding: 1.1rem;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 1.4rem;
+        margin: 4px 2rem;
+      }
+
+      .btn-speak {
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
+        color: black;
+        padding: 1.1rem;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 1.4rem;
+        margin: 4px 2rem;
+      }
+    
+    .image-mobile {
+        width: 100%;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+
+    .image-mobile-1 {
+        display: none;
+    }
+}
