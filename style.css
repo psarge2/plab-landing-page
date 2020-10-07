@@ -31,6 +31,15 @@ p {
   padding: 3.5rem;
 }
 
+.icon {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    stroke-width: 1rem;
+    stroke: #fff;
+    fill: #fff;
+  }
+
 .background-color{
     background-color:#995656;
     padding: 3rem;
@@ -65,8 +74,10 @@ p {
 }
 
 .top-btn {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        justify-content: center;
 }
 
 .connect {
@@ -80,7 +91,7 @@ p {
 
 .btn-purp {
     background-color: #2b3990;
-    border: none;
+    border: 1px solid #2b3990;
     color: white;
     padding: 2rem;
     text-align: center;
@@ -89,6 +100,11 @@ p {
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+  }
+
+  .btn-purp:hover {
+      background-color: #39427a;
+      cursor: pointer;
   }
 
 .purple {
@@ -108,6 +124,11 @@ p {
     margin: 4px 2px;
   }
 
+  .btn-clear:hover {
+      background-color: rgba(255, 255, 255, 0.24);
+      cursor: pointer;
+  }
+
 .btn-v {
     background-color: transparent;
     border: 2px solid white;
@@ -120,6 +141,7 @@ p {
     font-size: 12px;
     font-weight: light;
     margin: 4px 3px;
+    transition: all 1s;
   }
 
   .btn-purchase {
@@ -136,11 +158,17 @@ p {
   }
 
 
+  .btn-purchase:hover {
+    background-color: #39427a;
+    cursor: pointer;
+}
+
+
 .btn-cons {
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid #2b3990;
     border-radius: 2.5rem 2.5rem 2.5rem 2.5rem;
-    color: white;
+    color: #2b3990;
     padding: 2rem;
     text-align: center;
     text-decoration: none;
@@ -148,6 +176,12 @@ p {
     display: inline-block;
     font-size: 16px;
     margin: 4px 32px;
+  }
+
+  .btn-cons:hover {
+      background-color: #2b3990;
+      color: #fff;
+      cursor: pointer;
   }
 
 .btn-speak {
@@ -166,7 +200,7 @@ p {
 
 .content-left p {
     padding-right: 10rem;
-    line-height: 6rem;
+    line-height: 4rem;
     font-size: 2rem;
 }
 
@@ -214,10 +248,30 @@ p {
     padding-top: 3rem;
 }
 
+.speaker {
+    display: flex;
+    justify-content: center;
+    margin: 0 7rem;
+    /*width: 1200px;*/
+}
+
+.paragraph {
+    color: lightslategray;
+    margin: 3.5rem 7rem;
+    line-height: 3rem;
+    font-size: 2rem;
+}
+
+.author {
+    margin: 3.5rem;
+    border-radius: 50%;
+    height: 40rem;
+    width: 40rem;
+}
+
 .container {
     margin: 0 auto;
     max-width: 100%;
-    width: 1400px;
 }
 
 @media screen and (min-width: 961px) and (max-width: 1880px) {
@@ -452,6 +506,29 @@ p {
 
     .image-mobile {
         width: 30rem;
+    }
+
+    .speaker {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 0 2rem;
+        /*width: 1200px;*/
+    }
+    
+    .paragraph {
+        color: lightslategray;
+        margin: 1.75rem 2rem;
+        line-height: 3rem;
+        font-size: 2rem;
+    }
+    
+    .author {
+        flex: 1;
+        margin: 2.5rem 0;
+        border-radius: 50%;
+        height: 25rem;
+        width: 25rem;
     }
     
 
